@@ -40,7 +40,7 @@ with(data,lines(DateTime, data$Sub_metering_3, col='blue'))
 legend('topright',c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
              col = c('black', 'red', 'blue'),lty = c(1,1,1), bty="n" )
 
-# plotVoltage
+# plotReactivePower
 with(data,plot(DateTime,Global_reactive_power,pch=NA,
                xlab="datetime", ylab="Global reactive power"))
 with(data,lines(DateTime,Global_reactive_power))
